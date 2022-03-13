@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/fragment_vertical_margin"
+    android:paddingLeft="@dimen/fragment_horizontal_margin"
+    android:paddingTop="@dimen/fragment_vertical_login"
+    android:paddingRight="@dimen/fragment_horizontal_login"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".KlikLoginFragment">
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/fragment_vertical_margin"
+        android:text="NAMA : APRILIA REGINA"
+        android:drawablePadding="@dimen/fragment_horizontal_margin"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/npm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NPM : 2007051050"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+</LinearLayout>
