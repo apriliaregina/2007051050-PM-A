@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.lkpnavigationcomponent.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_DetailsActivity"
+            app:destination="@id/detailsActivity" />
+        <action
+            android:id="@+id/action_homeFragment_to_PriceActivity"
+            app:destination="@id/priceActivity" />
+        <action
+            android:id="@+id/action_homeFragment_to_sizeActivity"
+            app:destination="@id/sizeActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/detailsActivity"
+        android:name="com.example.lkpnavigationcomponent.DetailsActivity"
+        android:label="activity_details"
+        tools:layout="@layout/activity_details" />
+    <activity
+        android:id="@+id/priceActivity"
+        android:name="com.example.lkpnavigationcomponent.PriceActivity"
+        android:label="activity_price"
+        tools:layout="@layout/activity_price" />
+    <activity
+        android:id="@+id/sizeActivity"
+        android:name="com.example.lkpnavigationcomponent.SizeActivity"
+        android:label="activity_size"
+        tools:layout="@layout/activity_size" />
+</navigation>

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SizeActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:text="Size Chart"
+        android:textColor="@color/purple_700"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TableRow android:layout_height="38dp">
+
+            <TextView
+                android:layout_width="52dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:padding="1dip"
+                android:gravity="center"
+                android:text="IT"
+                android:textColor="#FF121111"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="60dp"
+                android:padding="1dip"
+                android:text="Shoulder(cm)"
+                android:textColor="#FF121111"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="122dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="250dp"
+                android:padding="1dip"
+                android:text="Chest(cm)"
+                android:textColor="#FF121111"
+                android:textSize="16sp" />
+
+        </TableRow>
+
+        <TableRow android:layout_height="38dp">
+
+            <TextView
+                android:layout_width="52dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:padding="1dip"
+                android:gravity="center"
+                android:text="34"
+                android:textColor="#FF121111"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="95dp"
+                android:padding="1dip"
+                android:text="37"
+                android:textColor="#FF121111"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="58dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="170dp"
+                android:padding="1dip"
+                android:text="      77"
+                android:gravity=""
+                android:textColor="#FF121111"
+                android:textSize="16sp" />
+
+        </TableRow>
+
+        <TableRow android:layout_height="38dp">
+
+            <TextView
+                android:layout_width="52dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:padding="1dip"
+                android:gravity="center"
+                android:text="36"
+                android:textColor="#FF121111"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="95dp"
+                android:padding="1dip"
+                android:text="38"
+                android:textColor="#FF121111"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="58dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="170dp"
+                android:padding="1dip"
+                android:text="      80"
+                android:gravity=""
+                android:textColor="#FF121111"
+                android:textSize="16sp" />
+
+        </TableRow>
+
+        <TableRow android:layout_height="38dp">
+
+            <TextView
+                android:layout_width="52dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:padding="1dip"
+                android:gravity="center"
+                android:text="38"
+                android:textColor="#FF121111"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="95dp"
+                android:padding="1dip"
+                android:text="39"
+                android:textColor="#FF121111"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="58dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="170dp"
+                android:padding="1dip"
+                android:text="      83"
+                android:gravity=""
+                android:textColor="#FF121111"
+                android:textSize="16sp" />
+
+        </TableRow>
+        <TableRow android:layout_height="38dp">
+
+            <TextView
+                android:layout_width="52dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:padding="1dip"
+                android:gravity="center"
+                android:text="40"
+                android:textColor="#FF121111"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="95dp"
+                android:padding="1dip"
+                android:text="40"
+                android:textColor="#FF121111"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="58dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="170dp"
+                android:padding="1dip"
+                android:text="      86"
+                android:gravity=""
+                android:textColor="#FF121111"
+                android:textSize="16sp" />
+
+        </TableRow>
+        <TableRow android:layout_height="38dp">
+
+            <TextView
+                android:layout_width="52dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:padding="1dip"
+                android:gravity="center"
+                android:text="42"
+                android:textColor="#FF121111"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="95dp"
+                android:padding="3dip"
+                android:text="41"
+                android:textColor="#FF121111"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="58dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="170dp"
+                android:padding="1dip"
+                android:text="      89"
+                android:gravity=""
+                android:textColor="#FF121111"
+                android:textSize="16sp" />
+
+        </TableRow>
+        <TableRow android:layout_height="38dp">
+
+            <TextView
+                android:layout_width="52dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:padding="1dip"
+                android:gravity="center"
+                android:text="44"
+                android:textColor="#FF121111"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="95dp"
+                android:padding="1dip"
+                android:text="42"
+                android:textColor="#FF121111"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="58dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="170dp"
+                android:padding="1dip"
+                android:text="      93"
+                android:gravity=""
+                android:textColor="#FF121111"
+                android:textSize="16sp" />
+
+        </TableRow>
+
+
+
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
