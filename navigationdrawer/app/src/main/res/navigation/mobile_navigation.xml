@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_grup">
+
+    <fragment
+        android:id="@+id/nav_add"
+        android:name="com.androidrion.navigationdrawer.ui.settings.AddFragment"
+        android:label="Add Account"
+        tools:layout="@layout/fragment_add" />
+
+    <fragment
+        android:id="@+id/nav_grup"
+        android:name="com.androidrion.navigationdrawer.ui.grup.GrupFragment"
+        android:label="New Group"
+        tools:layout="@layout/fragment_grup" />
+
+    <fragment
+        android:id="@+id/nav_kontak"
+        android:name="com.androidrion.navigationdrawer.ui.kontak.KontakFragment"
+        android:label="Contact"
+        tools:layout="@layout/fragment_kontak" />
+
+    <fragment
+        android:id="@+id/nav_call"
+        android:name="com.androidrion.navigationdrawer.ui.call.CallsFragment"
+        android:label="Calls"
+        tools:layout="@layout/fragment_calls" />
+
+    <fragment
+        android:id="@+id/nav_saved"
+        android:name="com.androidrion.navigationdrawer.ui.save.SavedFragment"
+        android:label="Saved Messages"
+        tools:layout="@layout/fragment_saved" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.androidrion.navigationdrawer.ui.settings.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+
+
+
+</navigation>
